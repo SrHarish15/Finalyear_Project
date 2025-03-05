@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <!-- Personal Info Section -->
+        <div class="card shadow-lg border-light mb-4">
+            <img id="profile-pic" src="profile.jpg" class="card-img-top" alt="Profile Picture">
+            <div class="card-body text-center">
+                <h5 class="card-title" id="name">Loading...</h5>
+                <p class="card-text"><strong>D.O.B:</strong> <span id="dob">Loading...</span></p>
+            </div>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="card shadow-lg border-light mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Contact Info</h5>
+                <p class="card-text"><i class="fas fa-phone-alt"></i> <strong>Mobile:</strong> <span id="mobile">Loading...</span></p>
+                <p class="card-text"><i class="fas fa-envelope"></i> <strong>Email:</strong> <span id="email">Loading...</span></p>
+                <p class="card-text"><i class="fas fa-user"></i> <strong>Father's Name:</strong> <span id="fatherName">Loading...</span></p>
+                <p class="card-text"><i class="fas fa-phone-alt"></i> <strong>Father's Mobile:</strong> <span id="fatherMobile">Loading...</span></p>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+        <div class="card shadow-lg border-light mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Address</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> <span id="address">Loading...</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
